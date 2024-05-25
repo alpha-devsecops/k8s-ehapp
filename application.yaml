@@ -14,7 +14,7 @@ spec:
     path: resources
 
   destination:
-    server: https://kubernetes.default.vpc
+    server: https://kubernetes.default.svc
     namespace: ehapp
 
   syncPolicy:
