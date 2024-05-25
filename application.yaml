@@ -1,4 +1,4 @@
-apiVersion: argoproj.io/alphav1
+apiVersion: argoproj.io/v1alpha1
 kind: Application
 
 metadata:
@@ -9,7 +9,7 @@ spec:
   project: k8s-pipeline
 
   source:
-    repoUrl: https://github.com/alpha-devsecops/k8s-ehapp.git
+    repoURL: https://github.com/alpha-devsecops/k8s-ehapp.git
     targetRevision: HEAD
     path: resources
 
