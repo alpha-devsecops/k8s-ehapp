@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/health", (req, res) => {
-  res.json({ message: "I am green" }).status("200");
+  res.json({ message: "I am green" }).status(200);
 });
 
 app.listen(port, () => {
